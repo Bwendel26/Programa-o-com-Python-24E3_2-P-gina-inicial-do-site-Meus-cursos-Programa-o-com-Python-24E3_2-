@@ -1,0 +1,5 @@
+op = input("Escolha a operação (+, -, *, /): ")
+num1 = float(input("Primeiro número: "))
+num2 = float(input("Segundo número: "))
+resultado = eval(f"{num1} {op} {num2}")
+print(f"Resultado: {resultado}")
